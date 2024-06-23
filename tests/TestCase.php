@@ -2,9 +2,9 @@
 
 namespace FikriMastor\Recoverable\Tests;
 
+use FikriMastor\Recoverable\RecoverableServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use FikriMastor\Recoverable\RecoverableServiceProvider;
 
 class TestCase extends Orchestra
 {

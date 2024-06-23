@@ -2,9 +2,9 @@
 
 namespace FikriMastor\Recoverable;
 
+use FikriMastor\Recoverable\Commands\RecoverableCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use FikriMastor\Recoverable\Commands\RecoverableCommand;
 
 class RecoverableServiceProvider extends PackageServiceProvider
 {

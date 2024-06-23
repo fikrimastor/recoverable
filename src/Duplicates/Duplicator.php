@@ -2,7 +2,4 @@
 
 namespace FikriMastor\Recoverable\Duplicates;
 
-class Duplicator
-{
-
-}
+class Duplicator {}

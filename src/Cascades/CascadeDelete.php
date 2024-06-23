@@ -2,7 +2,4 @@
 
 namespace FikriMastor\Recoverable\Cascades;
 
-class CascadeDelete
-{
-
-}
+class CascadeDelete {}

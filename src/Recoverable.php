@@ -2,7 +2,4 @@
 
 namespace FikriMastor\Recoverable;
 
-class Recoverable
-{
-
-}
+class Recoverable {}
