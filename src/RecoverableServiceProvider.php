@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace FikriMastor\Recoverable;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use FikriMastor\Recoverable\Commands\RecoverableCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class RecoverableServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('recoverable')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_recoverable_table')
+            ->hasCommand(RecoverableCommand::class);
     }
 }
